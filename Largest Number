@@ -1,0 +1,16 @@
+<?php
+
+function findLargest($num1, $num2, $num3) {
+    $largest = max($num1, $num2, $num3);
+    return $largest;
+}
+
+$first = 25;
+$second = 35;
+$third = 15;
+
+$largest = findLargest($first, $second, $third);
+
+echo "The largest number is: " . $largest;
+
+?>
